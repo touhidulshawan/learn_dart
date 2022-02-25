@@ -43,4 +43,7 @@ void list() {
 
   print(listOfStrings);
 
+  // spreed operators to copy listOfInts values into myFavNums
+  var myFavNums = [...listOfInts];
+  print(myFavNums);
 }

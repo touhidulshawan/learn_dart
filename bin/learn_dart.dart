@@ -3,6 +3,7 @@ import 'package:learn_dart/list.dart' as list;
 import 'package:learn_dart/variable.dart' as variable;
 import 'package:learn_dart/set.dart' as set_dart;
 import 'package:learn_dart/map.dart' as map;
+import 'package:learn_dart/fizzbuzz.dart' as fizz;
 
 void main() {
   calc.calculator();
@@ -10,4 +11,5 @@ void main() {
   variable.learnVariable();
   set_dart.setInDart();
   map.map();
+  fizz.fizzBuzz();
 }

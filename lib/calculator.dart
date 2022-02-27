@@ -39,7 +39,7 @@ void addition(int num1, int num2) {
 
 // do subtraction
 void subtraction(int num1, int num2) {
-  var result;
+  dynamic result;
 
   if (num1 > num2) {
     result = num1 - num2;

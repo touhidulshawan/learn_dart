@@ -26,6 +26,18 @@ class Person {
   }
 }
 
+class BankAccount {
+  BankAccount(
+      {required String this.accountHolderName, double this.balance = 0});
+
+  final String accountHolderName;
+  double balance;
+}
+
 void classes() {
-  final person1 = Person(name: "Mike", age: 22, height: 1.55); person1.printDescription();
+  final person1 = Person(name: "Mike", age: 22, height: 1.55);
+  person1.printDescription();
+
+  final mikeAccount =
+      BankAccount(accountHolderName: person1.name, balance: 200);
 }

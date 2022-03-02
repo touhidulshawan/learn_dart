@@ -17,5 +17,5 @@ void main() {
   fizz.fizzBuzz();
   rps.rps();
   res.restaurant();
-    classesInDart.classes();
+  classesInDart.classes();
 }

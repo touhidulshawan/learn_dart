@@ -6,6 +6,7 @@ import 'package:learn_dart/map.dart' as map;
 import 'package:learn_dart/fizzbuzz.dart' as fizz;
 import 'package:learn_dart/rps.dart' as rps;
 import 'package:learn_dart/restaurant.dart' as res;
+import 'package:learn_dart/classes.dart' as classesInDart;
 
 void main() {
   calc.calculator();
@@ -16,4 +17,5 @@ void main() {
   fizz.fizzBuzz();
   rps.rps();
   res.restaurant();
+    classesInDart.classes();
 }

@@ -6,7 +6,7 @@ import 'package:learn_dart/map.dart' as map;
 import 'package:learn_dart/fizzbuzz.dart' as fizz;
 import 'package:learn_dart/rps.dart' as rps;
 import 'package:learn_dart/restaurant.dart' as res;
-import 'package:learn_dart/classes.dart' as classesInDart;
+import 'package:learn_dart/classes.dart' as classes_in_dart;
 import 'package:learn_dart/temperature.dart' as temp;
 
 void main() {
@@ -18,6 +18,6 @@ void main() {
   fizz.fizzBuzz();
   rps.rps();
   res.restaurant();
-  classesInDart.classes();
+  classes_in_dart.classes();
   temp.temperature();
 }
